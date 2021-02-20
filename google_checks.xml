@@ -41,18 +41,8 @@
     <property name="eachLine" value="false"/>
   </module> 
 
-  <module name="EmptyForIteratorPad"/>
-  <module name="GenericWhitespace"/>
-  <module name="MethodParamPad"/>
-  <module name="NoWhitespaceAfter"/>
-  <module name="NoWhitespaceBefore"/>
-  <module name="OperatorWrap"/>
-  <module name="ParenPad"/>
-  <module name="TypecastParenPad"/>
-  <module name="WhitespaceAfter"/>
-  <module name="WhitespaceAround"/>
   
-   <!-- Miscellaneous other checks.                   -->
+  <!-- Miscellaneous other checks.                   -->
   <!-- See https://checkstyle.org/config_misc.html -->
   <module name="RegexpSingleline">
     <property name="format" value="\s+$"/>
@@ -68,6 +58,18 @@
   </module>
 
   <module name="TreeWalker">
+  
+	<module name="EmptyForIteratorPad"/>
+    <module name="GenericWhitespace"/>
+    <module name="MethodParamPad"/>
+    <module name="NoWhitespaceAfter"/>
+    <module name="NoWhitespaceBefore"/>
+    <module name="OperatorWrap"/>
+    <module name="ParenPad"/>
+    <module name="TypecastParenPad"/>
+    <module name="WhitespaceAfter"/>
+    <module name="WhitespaceAround"/>
+  
     <property name="tabWidth" value="4"/>
     <module name="OuterTypeFilename"/>
     <module name="IllegalTokenText">
